@@ -9,9 +9,9 @@ This doc gives some general information and guidance on how to get started progr
 ## Contents
 | Section     | Description                                |
 |-------------------|--------------------------------------------|
-|[Introduction](##Introduction) | More information about the PyBadge, including what's on the board. |
-| [Programming with MakeCode](##Getting-a-MakeCode-program-on-the-PyBadge) | A quick overview on how to program the Pybadge with MakeCode with troubleshooting tips and resources.
-| [Suggested Learning Path](##Suggested-Learning-Path) | This section provides a brief curriculum with project-based resources for art, games, and sensors.
+|[Introduction](#Introduction) | More information about the PyBadge, including what's on the board. |
+| [Programming with MakeCode](#Getting-a-MakeCode-program-on-the-PyBadge) | A quick overview on how to program the Pybadge with MakeCode with troubleshooting tips and resources.
+| [Suggested Learning Path](#Suggested-Learning-Path) | This section provides a brief curriculum with project-based resources for art, games, and sensors.
 
 
 ## Introduction
