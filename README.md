@@ -2,7 +2,7 @@
 
 > This repo includes resources for using the [Adafruit PyBadge](https://www.adafruit.com/product/4200) in educational, project-based programs.
 
-![PyBadge](\assets\PyBadge.jpg)
+![PyBadge](https://github.com/microsoft/PybadgeResources/blob/main/assets/PyBadge.jpg)
 ## Contents
 | File/folder       | Description                                |
 |-------------------|--------------------------------------------|
