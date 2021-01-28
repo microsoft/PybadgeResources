@@ -2,16 +2,12 @@
 
 > This repo includes resources for using the [Adafruit PyBadge](https://www.adafruit.com/product/4200) in educational, project-based programs.
 
+![PyBadge](\assets\PyBadge.jpg)
 ## Contents
 | File/folder       | Description                                |
 |-------------------|--------------------------------------------|
 | MakeCode | A folder for using the PyBadge with [Microsoft MakeCode Arcade](https://arcade.makecode.com/). 
 | VS Code | A folder for using the PyBadge with [Microsoft VS Code](https://code.visualstudio.com/).
-
-As the maintainer of this project, please make a few updates:
-
-- Updating SUPPORT.MD with content about this project's support experience
-
 
 
 ## Contributing
