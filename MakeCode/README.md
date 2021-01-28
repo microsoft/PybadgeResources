@@ -2,6 +2,8 @@
 
 > This repo provides an overview of how to program the PyBadge with [Microsoft MakeCode Arcade](https://arcade.makecode.com/).
 
+![MakeCode Arcade Screenshot](assets\MakeCodeArcade-mylilai_small.png)
+
 This doc gives some general information and guidance on how to get started programming the PyBadge with MakeCode.
 
 ## Contents
@@ -34,17 +36,20 @@ We can write instructions, called programs, for the PyBadge using Microsoft Make
 For the full list of features, [visit this site](https://www.adafruit.com/product/4200).
 
 ## Getting a MakeCode program on the PyBadge
+![MakeCode Arcade: choose hardware screenshot](\assets\Arcade-ChooseHardware1.png)
 1. Download the program:
      * In MakeCode Arcade, click "Download" and "Choose Hardware," then select "Adafruit PyBadge" on the top right.
      * The program (a .uf2 file) will save to your computer. Note where it's saved or choose a folder.
      * After this first setup, you can simply click the Download button on the MakeCode Arcade editor page. 
+
+![PyBadge Bootloader mode](\assets\PyBadgeBootMode.jpg)
 1. Put the device into bootloader mode: 
     * Double-tap the PyBadge reset button to get it to appear as a device on the computer, much like a USB drive.
     * When the board is in bootloader mode you'll see a screen similar to the above one show up.
     * Now that the board is in bootloader mode, you should see a BADGEBOOT drive show up on your computer. Drag the arcade game .uf2 file onto the drive.
 4. Once the file is copied over the board will restart and launch the program!
 
-### Community Resources
+### General Resources
 * [Navigating MakeCode Arcade](https://learn.adafruit.com/how-to-make-games-on-makecode-arcade/navigating-makecode-arcade): an overview of the MakeCode interface 
 * [Arcade Game Maker Guide](https://arcade.makecode.com/skillmap): A multi-tutorial guide for learning how to make games in MakeCode Arcade. Includes certificates for completed tutorials.
 
