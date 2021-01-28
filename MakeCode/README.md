@@ -48,7 +48,7 @@ width = 600>
      
 <img src="https://github.com/microsoft/PybadgeResources/blob/main/MakeCode/assets/PyBadgeBootMode.jpg" alt = "PyBadge bootloader mode"
 width = 400>
-1. Put the device into bootloader mode: 
+1. Put the device into bootloader mode:
     * Double-tap the PyBadge reset button to get it to appear as a device on the computer, much like a USB drive.
     * When the board is in bootloader mode you'll see a screen similar to the above one show up.
     * Now that the board is in bootloader mode, you should see a BADGEBOOT drive show up on your computer. Drag the arcade game .uf2 file onto the drive.
@@ -74,24 +74,24 @@ width = 400>
 > Estimated time: 30 - 45 minutes.
 > Recommended ages: All!
 
-This lesson introduces students to MakeCode Arcade and shows them how to load MakeCode programs onto the PyBadge.
+This lesson introduces participants to MakeCode Arcade and shows them how to load MakeCode programs onto the PyBadge.
 
-1. Start by giving students some time to explore MakeCode Arcade and create a creature or character. 
-2. Show students how to download the program and load onto the PyBadge. 
-3. Depending on students' experience, include 10 - 15 minutes for loading a first test program. 
-4. If students finish early, encourage them to start adding to their test program by making the character move, adding a background, or exploring the on-board sensors.
-5. Encourage students to share their creations, what worked well, what was surprising, and any mysteries or questions they have.
+1. Start by giving participants some time to explore MakeCode Arcade and create a creature or character.
+2. Show participants how to download the program and load onto the PyBadge.
+3. Depending on participants' experience, include 10 - 15 minutes for loading a first test program.
+4. If participants finish early, encourage them to start adding to their test program by making the character move, adding a background, or exploring the on-board sensors.
+5. Encourage participants to share their creations, what worked well, what was surprising, and any mysteries or questions they have.
 
 ### Lesson 1: Open-ended exploration
 
 > Estimated time: 60 - 90 min, longer as needed
 > Recommended ages: 8+
 
-Provide students an open-ended prompt and allow them to design and build a solution using MakeCode Arcade and the PyBadge.
+Provide participants an open-ended prompt and allow them to design and build a solution using MakeCode Arcade and the PyBadge.
 
 It may be helpful to start with a short lesson on the **Design Thinking Process**. [Here's a helpful resource created by the Stanford D School](https://kissingergroup.com/wp-content/uploads/2020/06/An-Introduction-to-Design-Thinking.pdf).
 
-If students are unsure what to make, suggest they write down their values, or things they care about, and use one to motivate a project.
+If participants are unsure what to make, suggest they write down their values, or things they care about, and use one to motivate a project.
 
 **Sample prompts**
 
@@ -99,8 +99,8 @@ If students are unsure what to make, suggest they write down their values, or th
 * Make something inspired by nature
 * Design a solution for an everyday problem
 * Invent an instrument
-* Design a game (for 2 or more people) 
-* Explore other prompts based on students' interests!
+* Design a game (for 2 or more people)
+* Explore other prompts based on participants' interests!
 
 ### Lessons 2 and onward: Build a project!
 
