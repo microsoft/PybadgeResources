@@ -2,7 +2,7 @@
 
 > This repo provides an overview of how to program the PyBadge with [Microsoft MakeCode Arcade](https://arcade.makecode.com/).
 
-![MakeCode Arcade Screenshot](assets\MakeCodeArcade-mylilai_small.png)
+<img src="https://github.com/microsoft/PybadgeResources/blob/main/MakeCode/assets/MakeCodeArcade-mylilai_small.png" alt="MakeCode Arcade screenshot" width=600>
 
 This doc gives some general information and guidance on how to get started programming the PyBadge with MakeCode.
 
@@ -36,13 +36,15 @@ We can write instructions, called programs, for the PyBadge using Microsoft Make
 For the full list of features, [visit this site](https://www.adafruit.com/product/4200).
 
 ## Getting a MakeCode program on the PyBadge
-![MakeCode Arcade: choose hardware screenshot](\assets\Arcade-ChooseHardware1.png)
+<img src="https://github.com/microsoft/PybadgeResources/blob/main/MakeCode/assets/Arcade-ChooseHardware1.png" alt = "MakeCode Arcade choose hardware screenshot"
+width = 600>
 1. Download the program:
      * In MakeCode Arcade, click "Download" and "Choose Hardware," then select "Adafruit PyBadge" on the top right.
      * The program (a .uf2 file) will save to your computer. Note where it's saved or choose a folder.
      * After this first setup, you can simply click the Download button on the MakeCode Arcade editor page. 
-
-![PyBadge Bootloader mode](\assets\PyBadgeBootMode.jpg)
+     
+<img src="https://github.com/microsoft/PybadgeResources/blob/main/MakeCode/assets/PyBadgeBootMode.jpg" alt = "PyBadge bootloader mode"
+width = 400>
 1. Put the device into bootloader mode: 
     * Double-tap the PyBadge reset button to get it to appear as a device on the computer, much like a USB drive.
     * When the board is in bootloader mode you'll see a screen similar to the above one show up.
