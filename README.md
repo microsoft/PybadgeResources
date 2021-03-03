@@ -10,7 +10,12 @@
 | MakeCode | A folder for using the PyBadge with [Microsoft MakeCode Arcade](https://arcade.makecode.com/). 
 | VS Code | A folder for using the PyBadge with [Microsoft VS Code](https://code.visualstudio.com/).
 
-
+## Inspiration
+Looking for creative, fun, and educational projects? Here are some of our favs:
+1. Test out a [Mars Perserverence simulator on MakeCode](https://arcade.makecode.com/96197-78484-58633-75178) and use it as a starting point to build a Martian game!
+	* For more info, [here's an overview written by the creator](http://charette.com/2021/02/17/mars-perseverance-landing-with-makecode-arcade/).
+1. Follow the [Adventures of Ninja Cat](https://www.hackster.io/jenfoxbot/the-adventures-of-ninja-cat-6fb09e) and learn how to build a multi-world scavenger hunt game in MakeCode!
+1. Turn your PyBadge into a digital Etch-a-sketch! [Download the CircuitPython code here](https://github.com/benbenbob1/Etch-a-Sketch-PyBadge/blob/main/code.py).
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
