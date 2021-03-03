@@ -12,10 +12,23 @@
 
 ## Inspiration
 Looking for creative, fun, and educational projects? Here are some of our favs:
-1. Test out a [Mars Perserverence simulator on MakeCode](https://arcade.makecode.com/96197-78484-58633-75178) and use it as a starting point to build a Martian game!
+
+### Mars Perserverence Simulator (MakeCode)
+<img src="assets/MarsPerserverence-Landing1c.png" width="280" height="150">   <img src = "assets/MarsPerserverence-Landing2.png" width="280" height="150">
+
+Test out a [Mars Perserverence simulator on MakeCode](https://arcade.makecode.com/96197-78484-58633-75178) and use it as a starting point to build a Martian game!
 	* For more info, [here's an overview written by the creator](http://charette.com/2021/02/17/mars-perseverance-landing-with-makecode-arcade/).
-1. Follow the [Adventures of Ninja Cat](https://www.hackster.io/jenfoxbot/the-adventures-of-ninja-cat-6fb09e) and learn how to build a multi-world scavenger hunt game in MakeCode!
-1. Turn your PyBadge into a digital Etch-a-sketch! [Download the CircuitPython code here](https://github.com/benbenbob1/Etch-a-Sketch-PyBadge/blob/main/code.py).
+
+### The Adventures of Ninja Cat (MakeCode)
+<img src="assets/GameScreenshot-Town2.jpg" width = "200" height = "150">
+
+Follow the [Adventures of Ninja Cat](https://www.hackster.io/jenfoxbot/the-adventures-of-ninja-cat-6fb09e) and learn how to build a multi-world scavenger hunt game in MakeCode!
+
+### Digital Etch-a-Sketch (CircuitPython)
+<img src="assets/EtchASketch-SamplePhoto.jpg" width = "200" height = "150">
+
+Turn your PyBadge into a digital Etch-a-sketch that can draw in different colors! [Download the CircuitPython code here](https://github.com/benbenbob1/Etch-a-Sketch-PyBadge/blob/main/code.py).
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
