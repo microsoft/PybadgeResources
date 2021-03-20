@@ -2,7 +2,7 @@
 
 > This repo provides an overview of how to program the PyBadge with [Microsoft VS Code](https://code.visualstudio.com/). This learning path is intended for folks with some experience coding. If you're new to coding, we recommend the MakeCode pathway. 
 
-<img src="" alt="VS Code Screenshot" width=600>
+<img src="https://github.com/microsoft/PybadgeResources/blob/main/VSCode/assets/VSCode-Screenshot.png" alt="VS Code Screenshot" width=650 height=400>
 
 This doc gives general information and guidance on how to program the PyBadge with VS Code. We will focus on the CircuitPython language, but you can also use C/C++.
 
