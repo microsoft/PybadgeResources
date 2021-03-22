@@ -33,7 +33,7 @@ We can program the PyBadge using Microsoft VS Code, a robust and free source-cod
 
 ### What's on the board
 
-<img src="assets/PyBadge.jpg" alt="PyBadge">
+<img src="assets/PyBadge.jpg" alt="PyBadge" width=400 height=300>
 
 * Color screen display (1.8" 160x128 Color TFT Display) 
 * 8 x Game/Control Buttons 
@@ -53,7 +53,7 @@ For the full list of features, [visit this site](https://www.adafruit.com/produc
 ## PyBadge Setup
 **NOTE: Make sure you're using a data transfer USB cable and not a charge-only cable.**
 
-<img src="assets\PyBadgeBootMode.jpg" alt="PyBadge bootloader mode">
+<img src="assets/PyBadgeBootMode.jpg" alt="PyBadge bootloader mode" width=400 height=300>
 
 1. Click the reset button (on back) so that the PyBadge shows up as a device on your computer, like a USB stick!
     * If a single click doesn't work, try double-click.
