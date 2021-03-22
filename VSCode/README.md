@@ -32,6 +32,9 @@ Congratulations, you've got yourself a PyBadge! The PyBadge is device called a *
 We can program the PyBadge using Microsoft VS Code, a robust and free source-code editor made by Microsoft for Windows, Linux and macOS. Read on to learn more about the board and what you can make with it!
 
 ### What's on the board
+
+<img src="assets/PyBadge.jpg" alt="PyBadge">
+
 * Color screen display (1.8" 160x128 Color TFT Display) 
 * 8 x Game/Control Buttons 
 * Light sensor (on front) 
@@ -50,15 +53,17 @@ For the full list of features, [visit this site](https://www.adafruit.com/produc
 ## PyBadge Setup
 **NOTE: Make sure you're using a data transfer USB cable and not a charge-only cable.**
 
+<img src="assets\PyBadgeBootMode.jpg" alt="PyBadge bootloader mode">
+
 1. Click the reset button (on back) so that the PyBadge shows up as a device on your computer, like a USB stick!
     * If a single click doesn't work, try double-click.
 2. You may need to update the bootloader on the PyBadge, *esp* if you're working on a Mac. 
     * From Adafruit: "To see if you need to update your bootloader, get the UF2 boot drive to appear on your board. **If the boot drive is named ARCADE-D51 or BADGEBOOT, you definitely need to upgrade.** 
     * If you see PYBADGEBOOT, click the PYBADGEBOOT drive in the Finder and then double-click the ```INFO_UF2.TXT``` file to see what's inside. The bootloader version is listed in ```INFO_UF2.TXT```.
 
-    <img src="assets/PyBadge_UF2Info_BootloaderVersion.png">
+    <img src="assets/PyBadge_UF2Info_BootloaderVersion.png" width="500" height="400">
 
-    * If the bootloader version you see is older than v3.9.0, you need to update. For instance, the bootloader above needs to be upgraded.
+    * If the bootloader version you see is older than v3.9.0, like the one shown above, you need to update. 
     * [Download the latest version of the PyBadge bootloader updater here](https://circuitpython.org/board/pybadge/). Scroll down until you see "UF2 Bootloader"
 
     * Drag the downloaded bootloader UF2 file onto the PyBadge drive. While downloading, the PyBadge's status LED will flicker red, and the NeoPixels will flash and turn green. 
@@ -82,7 +87,10 @@ While we're setting up the PyBadge, let's grab the full suite of CircuitPython l
 
 ## VS Code Setup
 1. Download VS Code for free [here](https://code.visualstudio.com/Download).
-2. Open VS Code and go to the "Extensions" tab on the left-hand side menu (the little stacked blocks).
+
+<img src="assets/CircuitPython-VSCodeScreenshot.png" width=500 height=250>
+
+2. Open VS Code and go to the "Extensions" tab on the left vertical menu (the little stacked blocks near the bottom).
 3. Search for and install the "CircuitPython" extension.
 
 ## Suggested Learning Path
@@ -104,6 +112,8 @@ While we're setting up the PyBadge, let's grab the full suite of CircuitPython l
 1. [Download the game files here.](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20201229/adafruit-circuitpython-bundle-6.x-mpy-20201229.zip)
     * NOTE: the link above opens a zip file download. If you prefer to manually download, go to the [Digital Etch-a-Sketch GitHub repo here](https://github.com/benbenbob1/Etch-a-Sketch-PyBadge), click the green 'Code' button and select "Download ZIP" in the drop-down menu. 
 
+<img src="assets/EtchASketch-CopyFiles.png" alt="" width=550 height=200>
+
 2. Unzip and open the Etch-a-Sketch folder. First, we need to load the libraries the game needs:
     * Open the 'lib' folder. Select and drag the ```adafruit_bus_device``` folder and the ```adafruit_lis3dh.mpy``` file onto the PyBadge drive.
     * Go back to the main folder. Select and drag all four ```.py``` files onto the PyBadge:  ```audio.py```, ```code.py```, ```draw.py```, and ```input.py``` 
@@ -119,7 +129,7 @@ While we're setting up the PyBadge, let's grab the full suite of CircuitPython l
 #### Instructor Tips
 * Practice loading the code onto the PyBadge prior to the workshop. This will help you learn potential friction points for participants and make in-class debugging faster.
 * For this first lesson, the most important takeaways are:
-    1. The main PyBadge program **must** be named ```code.py``` exactly as-is, including all lowercase. 
+    1. The main PyBadge program **must be named ```code.py``` exactly as-is** in all lowercase. 
     2. Code files and libraries are added to the PyBadge by dragging and dropping the files onto the PyBadge drive.
     3. Error messages may be displayed on the PyBadge output. These are invaluable for debugging.
 * If you are comfortable with the terminology,  define concepts for participants as you go. If not, encourage participants to look up words/phrases like 'code library', 'function', 'variable', and 'python data types'. 
@@ -140,6 +150,9 @@ This is just one of many pathways for lessons with the PyBadge. We recommend lev
 
 #### Procedure
 1. Create a folder on the local computer where your code will be saved.
+
+<img src="assets/VSCode-NewFile.png" alt="Create new file in VS Code" width = 500 height = 200>
+
 2. Open VS Code. In the *File* menu, select *Open Folder* and open the folder you created in Step 1.
 3. At the top of the main screen, select "New File" under *Start*.
 4. Copy and paste the following code into the new file:
@@ -177,6 +190,7 @@ This is just one of many pathways for lessons with the PyBadge. We recommend lev
 *This learning portion is adapted from the [Adafruit Learn CircuitPython tutorial](https://learn.adafruit.com/adafruit-pybadge/creating-and-editing-code).*
 
 **Imports and Libraries**
+
 Each CircuitPython program you run needs to have a lot of information to work. The reason CircuitPython is so simple to use is that most of that information is stored in other files and works in the background. The files built into CircuitPython are called **modules**, and the files you load separately are called **libraries**. Modules are built into CircuitPython. Libraries are stored on your CIRCUITPY drive in a folder called **lib**.
 
     import board
@@ -213,9 +227,8 @@ Then the loop will begin again, and continue to do so as long as the code is run
 
 When you changed the first 0.5 to 0.1, you decreased the amount of time that the code leaves the LED on. So it blinks on really quickly before turning off!
 
-Great job! You've edited code in a CircuitPython program!
-
-Now that you've seen how to load code and libraries onto the PyBadge, practice editing other folks' code and writing your own programs! 
+> Great job! You've edited code in a CircuitPython program!
+> Now that you've seen how to load code and libraries onto the PyBadge, practice editing other folks' code and writing your own programs! 
 
 ### Lesson 2: Fundamental Concepts in Coding
 *Coming soon!*
